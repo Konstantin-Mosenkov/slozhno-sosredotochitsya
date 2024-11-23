@@ -16,6 +16,7 @@
   --nav-color: #ff0070;
   --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-logo-color: #db00ff;
+  --background-color: #000028;
 }
 
 @media (min-width: 768px) {

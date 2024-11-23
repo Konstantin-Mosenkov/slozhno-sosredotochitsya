@@ -1,4 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+html {
+  background-color: var(--background-color);
+}
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -88,7 +91,7 @@
   border: 1px solid var(--nav-hover-color);
 }
 
-.header__theme-menu-button_active  {
+.header__theme-menu-button_active {
   border: 1px solid var(--nav-color);
   pointer-events: none;
 }

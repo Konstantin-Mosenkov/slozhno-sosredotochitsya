@@ -3,7 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme_dark {
+:root .theme_dark {
   /* Дублируем переменные для тёмной темы */
   --main-text-color: #f1b2ce;
   --text-color: #000028;
@@ -12,6 +12,7 @@
   --section-heading-color: #ff0070;
   --nav-color: #ff0070;
   --footer-logo-color: #db00ff;
+  --background-color: #000028;
 }
 
 .page.theme_dark {

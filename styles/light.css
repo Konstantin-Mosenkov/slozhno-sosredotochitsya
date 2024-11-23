@@ -17,6 +17,7 @@
   --section-heading-color: #353430;
   --nav-color: #353430;
   --footer-logo-color: #ffc2e6;
+  --background-color: #fff1f7;
 }
 
 .theme_light .header__rec {
@@ -33,13 +34,14 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --main-text-color: #353430;
+    --main-text-color: #353430;
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --header-logo-color: #ffc2e6;
   --section-heading-color: #353430;
   --nav-color: #353430;
-  --footer-logo-color: #ffc2e6; 
+  --footer-logo-color: #ffc2e6;
+  --background-color: #fff1f7;
   }
 
   .page {
