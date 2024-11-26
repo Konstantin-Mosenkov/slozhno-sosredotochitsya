@@ -1,7 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-html {
-  background-color: var(--background-color);
-}
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -81,7 +78,7 @@ html {
   position: absolute;
   inline-size: 100%;
   block-size: 1px;
-  background-color: var(--accent-color);
+  background-color: var(--nav-color);
   inset-block-end: -2px;
   inset-inline-start: 0;
 }
@@ -92,7 +89,7 @@ html {
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--nav-color);
+  border: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -128,7 +125,7 @@ html {
 }
 
 .content-link:hover {
-  border-block-end: 1px solid var(--main-text-color);
+  border-block-end: 1px solid currentColor;
 }
 
 .content-link:focus {
@@ -136,7 +133,7 @@ html {
 }
 
 .content-link:focus-visible {
-  outline: 1px solid var(--main-text-color);
+  outline: 1px solid currentColor;
 }
 
 .content-section:not(:last-of-type) {
@@ -193,6 +190,8 @@ html {
   position: relative;
   display: grid;
   place-items: center;
+  block-size: 100vh;
+  min-block-size: 668px;
   padding: var(--main-gap);
 }
 
@@ -328,6 +327,8 @@ html {
 
   .header__theme-menu-list {
     flex-direction: row;
+    --main-gap: 10px;
+    gap: var(--main-gap);
   }
 
    .what .text-blocks {
